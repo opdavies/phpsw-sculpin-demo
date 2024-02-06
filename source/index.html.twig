@@ -2,28 +2,4 @@
 layout: default
 ---
 
-<section>
-    <h2 class="text-3xl font-bold text-center">Speakers</h2>
-
-    <div class="mt-8">
-        <div class="grid grid-cols-2 gap-10 px-4 mx-auto max-w-sm md:grid-cols-3 md:max-w-md lg:grid-cols-4 lg:gap-8 lg:max-w-full xl:grid-cols-6">
-            {% for speaker in site.speakers %}
-                <div>
-                    <a href="#" class="flex flex-col-reverse gap-3 items-center group">
-                        <div class="text-center">
-                            <p class="text-base group-hover:underline">{{ speaker.name }}</p>
-                        </div>
-
-                        <div>
-                            <img
-                                alt="Photo of {{ speaker.name }}"
-                                class="object-cover flex-shrink-0 rounded-full shadow-lg size-20 lg:size-32 xl:size-24"
-                                src="{{ speaker.imageUrl }}"
-                            />
-                        </div>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% include 'speakers/recent-speakers' %}
