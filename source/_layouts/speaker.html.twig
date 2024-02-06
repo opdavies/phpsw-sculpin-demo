@@ -1,1 +1,17 @@
 {% extends 'default' %}
+
+{% block content_wrapper %}
+    <h1 class="text-3xl font-bold text-center md:text-left">{{ page.name }}</h1>
+
+    <div class="mt-6">
+        <img
+            alt="Photo of {{ page.name }}"
+            class="object-cover flex-shrink-0 rounded-full shadow-lg size-40"
+            src="{{ page.imageUrl }}"
+        />
+    </div>
+
+    <div class="mt-10">
+        <em>{{ block('content') }}</em>
+    </div>
+{% endblock %}
