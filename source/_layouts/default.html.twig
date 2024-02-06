@@ -2,6 +2,8 @@
 
 {% block body %}
     <div class="p-10 mx-auto max-w-4xl">
-        {% block content %}{% endblock %}
+        {% block content_wrapper %}
+            {% block content %}{% endblock %}
+        {% endblock %}
     </div>
 {% endblock %}
