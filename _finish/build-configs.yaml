@@ -1,0 +1,15 @@
+name: phpsw-sculpin-demo
+template: sculpin-site
+parameters:
+  flake:
+    devshell:
+      packages:
+        - nodejs
+        - php81
+        - php81Packages.composer
+  git:
+    ignore:
+      - '!/assets/'
+      - '/source/build/'
+  experimental:
+    createInclusiveGitIgnoreFile: true

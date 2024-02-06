@@ -1,0 +1,5 @@
+sculpin_content_types:
+    speakers:
+        permalink: /speaker/:basename/
+    posts:
+        enabled: false

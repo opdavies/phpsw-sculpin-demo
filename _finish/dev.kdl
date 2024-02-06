@@ -1,0 +1,23 @@
+layout {
+  pane size=2 borderless=true {
+    plugin location="zellij:tab-bar"
+  }
+
+  pane split_direction="vertical" {
+    pane name="Editor" size="60%"
+
+    pane split_direction="horizontal" {
+      bash { args "-c" "vendor/bin/sculpin generate --server --watch"; }
+      bash { args "-c" "watch -n 1 tree output_dev"; }
+    }
+  }
+
+  pane size=2 borderless=true {
+    plugin location="zellij:status-bar"
+  }
+
+  pane_template name="bash" {
+    command "bash"
+    start_suspended true
+  }
+}

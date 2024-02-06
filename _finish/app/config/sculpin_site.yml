@@ -1,0 +1,39 @@
+name: 'PHPSW'
+locale: en
+talks:
+  - title: Building Static Websites with PHP and Sculpin
+    speaker: Oliver Davies
+    date: 2024-02-14
+  - title: 'FPGA^2: An open-source FPGA'
+    speaker: Robin Hodson
+    date: 2024-02-14
+  - title: Introducing Domain Driven Design
+    speaker: Rob Allen
+    date: 2024-01-10
+  - title: Building Better TUIs (with PHP)
+    speaker: Dan Leech
+    date: 2023-11-08
+  - title: Thoughts on Ubiquitous Language
+    speaker: Rob Allen
+    date: 2023-11-08
+  - title: Testing Legacy
+    speaker: Mike Karthauser
+    date: 2023-11-08
+  - title: Building "Build Configs"
+    speaker: Oliver Davies
+    date: 2023-11-08
+  - title: Terraform from a dev’s perspective
+    speaker: Nigel Dunn
+    date: 2023-10-11
+  - title: What is TDD and why should I care?
+    speaker: Naomi Gotts
+    date: 2023-07-12
+  - title: Go for PHP
+    speaker: Dan Leech
+    date: 2023-02-08
+  - title: What's new in PHP 8.*
+    speaker: Derick Rethans
+    date: 2023-02-11
+  - title: Behaviour Driven Development (BDD) in Practice
+    speaker: Ciaran McNulty
+    date: 2022-09-14
