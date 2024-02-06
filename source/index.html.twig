@@ -1,5 +1,8 @@
 ---
 layout: default
+use: [speakers]
 ---
 
-{% include 'speakers/recent-speakers' %}
+{% include 'speakers/recent-speakers' with {
+    speakers: data.speakers,
+} %}

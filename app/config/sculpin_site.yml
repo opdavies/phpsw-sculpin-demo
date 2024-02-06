@@ -1,27 +1,2 @@
 name: 'PHPSW'
 locale: en
-speakers:
-  - name: Oliver Davies
-    imageUrl: https://secure.meetupstatic.com/photos/member/c/8/8/1/highres_317091329.jpeg
-  - name: Robin Hodson
-    imageUrl: https://secure.meetupstatic.com/photos/member/2/f/e/1/highres_243972257.jpeg
-  - name: Rob Allen
-    imageUrl: https://secure.meetupstatic.com/photos/member/3/b/f/2/highres_312615346.jpeg
-  - name: Dan Leech
-    imageUrl: https://secure.meetupstatic.com/photos/member/b/e/3/a/highres_257208698.jpeg
-  - name: Mike Karthauser
-    imageUrl: https://secure.meetupstatic.com/photos/member/2/3/5/2/highres_80709042.jpeg
-  - name: Nigel Dunn
-    imageUrl: https://secure.meetupstatic.com/photos/member/b/b/b/4/highres_131268052.jpeg
-  - name: Naomi Gotts
-    imageUrl: https://secure.meetupstatic.com/photos/member/5/5/2/highres_311941362.jpeg
-  - name: Ryan Lee
-    imageUrl: https://secure.meetupstatic.com/photos/member/7/c/c/4/highres_273691940.jpeg
-  - name: James Titcumb
-    imageUrl: https://secure.meetupstatic.com/photos/member/9/d/3/c/highres_134740252.jpeg
-  - name: Derick Rethans
-    imageUrl: https://secure.meetupstatic.com/photos/member/6/3/f/0/highres_276685584.jpeg
-  - name: Dave Liddament
-    imageUrl: https://secure.meetupstatic.com/photos/member/9/2/c/4/highres_203797572.jpeg
-  - name: Ciaran McNulty
-    imageUrl: /images/ciaran.jpg
